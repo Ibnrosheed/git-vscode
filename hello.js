@@ -1,5 +1,7 @@
 console.log("Hello my people");
 
+
+
 let score = 100;
 if (score > 90) {
     console.log("You got an A");
@@ -11,5 +13,13 @@ if (score > 90) {
     console.log("You got a D");
 } else {
     console.log("You got an F");
-}  
+}
 
+
+// Test for vote eligibility
+let age = 18;
+if (age >= 18) {
+    console.log("You are eligible to vote");
+} else {
+    console.log("You are not eligible to vote");
+}   
