@@ -25,7 +25,7 @@ if (age >= 18) {
 }
 
 // Test for driving eligibility
-let drivingAge = 1000;
+let drivingAge = 18;
 if (age >= drivingAge) {
     console.log("You are eligible to drive");
 } else {
