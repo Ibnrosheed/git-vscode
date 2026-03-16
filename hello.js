@@ -22,4 +22,12 @@ if (age >= 18) {
     console.log("You are eligible to vote");
 } else {
     console.log("You are not eligible to vote");
+}
+
+// Test for driving eligibility
+let drivingAge = 16;
+if (age >= drivingAge) {
+    console.log("You are eligible to drive");
+} else {
+    console.log("You are not eligible to drive");
 }   
